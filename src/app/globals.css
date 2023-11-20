@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#menu{
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+    height: 0;
+    width: 0;
+    font-size: 0;
+    opacity: 0;
+    transition: all 0.1s linear;
+}
+
+#menu.open-menu{
+    opacity: 1;
+    font-size: 16px;
+    padding: 15px;
+    height: 160px  !important;
+    width: 280px !important;
+}
+
+#banner{
+    opacity: 0;
+    width: 70%;
+    transition: all 1s linear;
+}
+
+#banner.banner-change{
+    opacity: 1;
+    width: 100%;
+}
