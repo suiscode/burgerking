@@ -64,7 +64,7 @@ export default function Home() {
               alt="banner1"
             />
           </Link>
-          <Link href="hurgelt" id="TEST" className="w-[42%]">
+          <Link href="restraunt" id="TEST" className="w-[42%]">
             <Image
               className={`w-full overflow-hidden h-full rounded-2xl border-white border-2`}
               src="/menu2.jpg"

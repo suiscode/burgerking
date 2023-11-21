@@ -1,0 +1,160 @@
+{
+    "data":{
+        "menus":[
+            {
+                "id": "1",
+                "img":"/bar1.jpeg",
+                "title":"Мерчандайз бүтээгдэхүүн",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar1.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar1.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "2",
+                "img":"/bar2.jpeg",
+                "title":"Онцлох бүтээгдэхүүн",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar2.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar2.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "3",
+                "img":"/bar3.jpeg",
+                "title":"Үхрийн махтай",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar3.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar3.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "4",
+                "img":"/bar4.jpeg",
+                "title":"Тахианы махтай",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar4.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar4.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "5",
+                "img":"/bar5.jpeg",
+                "title":"Дан бүтээгдэхүүн",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar5.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar5.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "6",
+                "img":"/bar6.jpeg",
+                "title":"Багц",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar6.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar6.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "7",
+                "img":"/bar7.jpeg",
+                "title":"Хүүхдийн багц",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar7.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar7.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "8",
+                "img":"/bar8.jpeg",
+                "title":"Хачир",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar8.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar8.jpeg",
+                    "img": "Item"
+                }
+            ]
+            },
+            {
+                "id": "9",
+                "img":"/bar9.jpeg",
+                "title":"Ундаа",
+                "items":[
+                    {
+                    "id": "1-1",
+                    "img": "/bar9.jpeg",
+                    "img": "Item"
+                },
+                {
+                    "id": "1-2",
+                    "img": "/bar9.jpeg",
+                    "img": "Item"
+                }
+            ]
+            }
+        ]
+            
+    }
+}

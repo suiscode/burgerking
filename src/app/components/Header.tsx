@@ -8,7 +8,7 @@ const Header = () => {
   const [display, setDisplay] = useState(false)
 
   return (
-    <header className="w-screen fixed z-10 top-0 bg-orange-100 h-20 flex items-center justify-between px-10 py-3">
+    <header className="w-screen fixed z-20 top-0 bg-orange-100 h-20 flex items-center justify-between px-10 py-3">
       <div className="flex items-center justify-center gap-5 box-border">
         <ul className="flex gap-5 text-yellow-950 size text-xl h-7">
           <Link href="/hurgelt" className="hover:text-orange-400">
