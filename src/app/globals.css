@@ -4,6 +4,7 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 #menu{
     box-sizing: border-box;
@@ -39,6 +40,22 @@
     top: 0;
     left: 0;
     background-color: rgba(59,20,10,0.9);
+}
+
+#cat{
+    /* padding: 2px; */
+}
+#cat:hover{
+    -webkit-box-sizing: border-box;
+    border-color: rgb(239 68 68 / var(--tw-border-opacity));
+    border-width: 1.5px;
+    padding: -2px;
+}
+
+#cat-selected{
+    border-color: rgb(239 68 68 / var(--tw-border-opacity));
+    border-width: 1.5px;
+    padding: -2px;
 }
 
 /* #banner{

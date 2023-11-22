@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import menus from "../menu.json";
 import Delivery from "../components/Delivery"
 import DeliveryMenu from "../components/DeliveryMenu";
@@ -10,6 +10,16 @@ const page = (props: any ) => {
   const { ci } = searchParams;
   const menu = menus.data.menus;
   const [isClicked, setClicked] = useState<boolean>(false);
+  
+
+  useEffect(()=>{
+    if(ci){
+      setClicked(true)
+    }else{
+      setClicked(false)
+    }
+  },[ci])
+  
 
   return (
     isClicked ? <DeliveryMenu setClicked={setClicked}/>
@@ -21,7 +31,7 @@ const page = (props: any ) => {
       <div className=" flex justify-center max-w-[950px] py-12 flex-wrap gap-5">
         {menu.map((item) => {
           return (
-          <Delivery key={item.id} img={item.img} title={item.title} id={item.id} setClicked={setClicked} />
+          <Delivery key={item.id} img={item.img} title={item.title} id={item.id} />
           )})}
       </div>
     </div>

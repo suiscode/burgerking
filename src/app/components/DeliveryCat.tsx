@@ -12,7 +12,7 @@ const DeliveryCat = ({
   id: any;
 }) => {
   return (
-    <Link href={`?ci=${id}`} className="flex border-[0.5px] overflow-hidden border-gray-600 h-[50px] rounded-2xl">
+    <Link href={`?ci=${id}`} id='cat' className="flex border-[0.5px] overflow-hidden border-gray-600 box-border h-[50px] rounded-2xl " >
       <div className="w-[50px] h-[50px] relative">
         <Image src={img} objectFit="cover" alt="1" sizes="100" fill={true} />
       </div>

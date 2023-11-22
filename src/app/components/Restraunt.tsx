@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -18,7 +20,7 @@ const menu = ({img, title,id} : {
             />
           </div>
           <div className="bg-white h-[70px] flex items-center justify-center">
-            <h1 className="text-red-600 text-xl">{title}</h1>
+            <h1 className="text-amber-950 text-xl">{title}</h1>
           </div>
         </Link>
   )
