@@ -5,7 +5,7 @@ import menus from "../menu.json";
 import Delivery from "../components/Delivery"
 import DeliveryMenu from "../components/DeliveryMenu";
 
-const page = (props: any ) => {
+function Page (props: any ) {
   const { searchParams } = props;
   const { ci } = searchParams;
   const menu = menus.data.menus;
@@ -38,4 +38,4 @@ const page = (props: any ) => {
   );
 };
 
-export default page;
+export default Page;
