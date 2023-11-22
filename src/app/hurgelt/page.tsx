@@ -9,7 +9,7 @@ const page = (props: any ) => {
   const { searchParams } = props;
   const { ci } = searchParams;
   const menu = menus.data.menus;
-  const [isClicked, setClicked] = useState<boolean>(false);
+  const [isClicked, setClicked] = useState<any>(false);
   
 
   useEffect(()=>{
